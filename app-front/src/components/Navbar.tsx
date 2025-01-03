@@ -20,16 +20,16 @@ const Navbar = () => {
                         {/* Input de localização */}
                         <input
                             placeholder="Localização"
-                            className="border w-full max-w-[150px] md:max-w-[200px] lg:max-w-[250px] p-2 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                            className="border w-full max-w-[150px] md:max-w-[200px] lg:max-w-[250px] p-2 rounded-md text-sm"
                         />
                         {/* Input de busca */}
                         <input
                             placeholder="Encontre os itens aqui..."
-                            className="border w-full max-w-[200px] md:max-w-[300px] lg:max-w-[400px] p-2 rounded-md text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                            className="border w-full max-w-[200px] md:max-w-[300px] lg:max-w-[400px] p-2 rounded-md text-sm"
                         />
                         {/* Botão "Vender" */}
                         <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out shadow-md">
-                            Vender
+                            Anunciar e Vender
                         </button>
                     </div>
 
